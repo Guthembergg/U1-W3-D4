@@ -4,7 +4,7 @@ const aggiungiClasseSelected = (event) => {
   elementoCliccato.classList.toggle("selected");
 };
 const deleteTask = (event) => {
-  const task = document.getElementById("list-items");
+  const task = document.getElementById("list");
 
   const elemCLick = event.target;
 
@@ -33,7 +33,8 @@ const AggiungoTask = () => {
     newButton.onclick = deleteTask;
     newDiv.onclick = aggiungiClasseSelected;
     newDiv.appendChild(newButton);
-    document.getElementById("list-items").appendChild(newDiv);
+    newButton.innerText = "cancella";
+    document.getElementById("list").appendChild(newDiv);
 
     document.getElementById("list-item-input").value = "";
     i++;
