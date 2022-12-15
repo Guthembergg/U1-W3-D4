@@ -24,7 +24,7 @@ const AggiungoTask = () => {
   if (valoreInputField === "") {
     alert("Non lasciare vuoto il testo");
   } else {
-    const newDiv = document.createElement("div");
+    const newDiv = document.createElement("li");
     const newButton = document.createElement("button");
     newButton.classList.add(`${i}`);
     newDiv.classList.add("list-items");
