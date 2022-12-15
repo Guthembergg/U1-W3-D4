@@ -6,8 +6,8 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   border-radius: 15px;
-  background-color: rgba(227, 185, 192, 0.306);
 }
+
 #list {
   margin-top: 2%;
 }
@@ -16,6 +16,7 @@ input {
   width: 20%;
 }
 .list-items {
+  font-size: 29px;
   margin: 1%;
   font-weight: 600;
 }
@@ -25,9 +26,9 @@ input {
 }
 .task {
   margin: 1%;
-  background-color: rgba(0, 222, 4, 0.56);
+  background-color: rgba(0, 255, 4, 0.56);
 }
 div button {
   margin-left: 30%;
-  background-color: rgba(165, 42, 42, 0.423);
+  background-color: rgba(255, 0, 0, 0.423);
 }

@@ -22,7 +22,7 @@ let i = 0;
 const AggiungoTask = () => {
   const valoreInputField = document.getElementById("list-item-input").value;
   if (valoreInputField === "") {
-    alert("Non lasciare vuoto il testo");
+    alert("write something");
   } else {
     const newDiv = document.createElement("li");
     const newButton = document.createElement("button");
@@ -33,7 +33,7 @@ const AggiungoTask = () => {
     newButton.onclick = deleteTask;
     newDiv.onclick = aggiungiClasseSelected;
     newDiv.appendChild(newButton);
-    newButton.innerText = "cancella";
+    newButton.innerText = "delete";
     document.getElementById("list").appendChild(newDiv);
 
     document.getElementById("list-item-input").value = "";
