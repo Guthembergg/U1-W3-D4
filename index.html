@@ -4,7 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Events</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>My to do list</h1>
+      <input
+        type="text"
+        id="list-item-input"
+        placeholder="Inserisci un nuovo elemento nella lista"
+        onkeyup="gestisciKeyUpSuInput(event)"
+      />
+      <button onclick="AggiungoTask()">Aggiungi Task</button>
+      <div id="list-items"></div>
+    </div>
+    <div class="container"></div>
+    <div class="container"></div>
+  </body>
+  <script src="script.js"></script>
 </html>
